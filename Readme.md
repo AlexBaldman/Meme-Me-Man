@@ -1,22 +1,7 @@
 # Meme-Me-Man 
 
-- [Meme-Me-Man](#meme-me-man)
-  - [Project Planning](#project-planning)
-    - [Description](#description)
-    - [Wireframes](#wireframes)
-    - [MVP](#mvp)
-      - [MVP Goals](#mvp-goals)
-      - [MVP API](#mvp-api)
-      - [MVP Libraries & Dependencies](#mvp-libraries--dependencies)
-      - [MVP Components](#mvp-components)
-      - [MVP Breakdown](#mvp-breakdown)
-      - [MVP Timeframes](#mvp-timeframes)
-    - [Post-MVP](#post-mvp)
-  - [Project Delivery](#project-delivery)
-    - [Code Showcase](#code-showcase)
-    - [Code Issues & Resolutions](#code-issues--resolutions)
-
 ## Project Planning
+An overview of planned steps for my first project while learning and becoming more comfortable with ReactJS.
 
 <br>
 
@@ -28,19 +13,19 @@ _**Meme-Me-Man** is a single-page app portraying a robotic face that spits out m
 
 ### Wireframes
 
-![Mobile View](https://imgur.com/qWGXzYK)
+![Mobile View](https://i.imgur.com/qWGXzYK.png)
 
 
-![Tablet View](https://imgur.com/GBgf8oC)
+![Tablet View](https://i.imgur.com/GBgf8oC.png)
 
 
-![Desktop View](https://imgur.com/X6rVZMM)
+![Desktop View](https://i.imgur.com/X6rVZMM.png)
 
 <br>
 
 ### MVP
 
-_**Meme-Me-Man**, in his most basic form, is a fairly simple but creatively conceived meme generating app._
+_**Meme-Me-Man**, in his most basic form, is a fairly simple but creatively conceived meme/content generating app designed in the shape of a cartoonish/robotic face that, when pushed on the nose, will grab a random meme for the user and display it in his mouth._
 
 <br>
 
@@ -52,6 +37,7 @@ _**Meme-Me-Man**, in his most basic form, is a fairly simple but creatively conc
 - _Incorporating functionality through the use of state and functional components._
 - _Using React Router to allow changes to take place on the page without needing to refresh._
 - _A resulting MVP product that fits the basic description of a meme generating app designed in a creative and unique way._
+- _Going forward this could also be a fertile testing ground and training area for furtherance of CSS skills, as many different versions of it could be rendered with different styling on the components._
 
 <br>
 
@@ -62,7 +48,7 @@ _**Meme-Me-Man**, in his most basic form, is a fairly simple but creatively conc
 |    API     | Quality Docs? | Documentation | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
 | imgFlip |      yes      | _api.imgflip.com_ | _https://api.imgflip.com/get_memes_ |
-| Possible additions|      N/A      | N/A | N/A |
+| Possible additions|      TBD      | TBD | TBD |
 
 Sample Query Results:
 
@@ -120,6 +106,7 @@ src
       |__ Button.jsx
       |__ Meme.jsx
       |__ Footer.jsx
+      |__ Index.jsx
 ```
 
 <br>
@@ -131,11 +118,12 @@ src
 |    App.js    |   class    |   y   |   n   |   n   | _Holds together other components._ |
 |    Header    | functional |   n   |   n   |   n   | _Header info - may hold Nav._ |
 |  Navigation  | functional |   n   |   n   |   n   | _Navigation to different possible views with changes in components._ |
-|     Main     | functional |   n   |   n   |   y   | _Default face view of app._ |
+|     Main     | functional |   n   |   n   |   m   | _Default face view of app._ |
 |    Index     | functional |   n   |   n   |   y   | _Renders the actual changes to the DOM._ |
-|    Button    | functional |   n   |   n   |   y   | _Generates meme when clicked._ |
+|    Button    | functional |   n   |   y   |   y   | _Generates meme when clicked._ |
 |    Footer    | functional |   n   |   n   |   n   | _Holds more info - possibly containing Nav._ |
 |    Meme    | functional |   n   |   y   |   n   | _Hold the meme returned from API._ |
+
 
 <br>
 
@@ -143,28 +131,26 @@ src
 
 > Estimations of time-frames spent on building the project, its individual components, and various functionalities:
 
-| Task             | Priority | Estimated Time | Time Invested | Actual Time |
+| Task             | Priority | Roughly Estimated Time | Time Invested | Actual Time |
 | ---------------- | :------: | :------------: | :-----------: | :---------: |
 | App Setup & Installing Dependencies|    M     |     2 hrs      |     TBD     |    TBD    |
 | Basic Layout & Components Setup      |    H     |     3 hrs      |     TBD     |     TBD     |
 | Working with API      |    H     |     3 hrs      |     TBD     |     TBD     |
-| Correctly rendering components & handle passing data      |    H     |     4 hrs      |     TBD     |     TBD     |
+| Correctly rendering components & handle passing data      |    H     |     3 hrs      |     TBD     |     TBD     |
 | Adding routing & MVP functionality via state      |    H     |     3 hrs      |     TBD     |     TBD     |
 | Improving styling       |    H     |     3 hrs      |     TBD     |     TBD     |
-| Testing & improvement of responsive design / media queries       |    H     |     4 hrs      |     TBD     |     TBD     |
-| TOTAL            |          |     22 hrs      |     TBD     |     TBD     |
+| Testing & improvement of responsive design / media queries       |    H     |     3 hrs      |     TBD     |     TBD     |
+| TOTAL            |          |     20 hrs      |     TBD     |     TBD     |
 
 <br>
 
 ### Post-MVP
 
-> Ideas regarding fun possibilities of extra content & functionality to work on after reaching a Minimum Viable Product:
-
-- _Lots of different possibilities via different stylings, adding of further face elements that could take user input to use different APIs to display other stuff in the mouth - cartoons, gifs, etc.._
-- _Could use project to practice various ways of styling the face with CSS, animations, etc.._
+- _Lots of Post-MVP ideas for potentially different versions via different stylings, adding of further face elements with more interaction and functionality, alternate characters, etc... 
+- _Could take user input to use different APIs to display other stuff in the mouth - cartoons, gifs, etc.._
+- _Could use project as a dojo of sorts down the road to practice different things.  For example, various ways of styling, manipulating locations of different parts of the face with CSS, add animations, etc..  Could also plug different API's with differing functionality into the app to work with displaying different types things returned by the API - i.e. videos, gifs, weather forecasts, what have you.._
 - _Could use router via nav bar to add various faces that it could change to._
-- _Could make a female version, Meme-Me-Ma'am... etc. etc.._
-
+- _Could make a female-styled version, Meme-Me-Ma'am... etc. 
 
 <br>
 
@@ -172,7 +158,7 @@ src
 
 ## Project Delivery
 
-> This section will be updated as I progress through the development process, serving as a chronicle of sorts as I keep track of my work.
+> This section will be updated as I progress through the development process, serving as a chronicle of sorts as I track my work.
 
 ### Code Showcase
 
