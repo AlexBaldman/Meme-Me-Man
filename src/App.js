@@ -22,7 +22,7 @@ function App() {
     <div className="App">
       
       <header className="header">
-        <h2 className="title">Meme-Me-Man</h2>
+        <h2 className="title">MEME-ME-MAN</h2>
       </header>
 
       <div className="eyes">
@@ -49,7 +49,6 @@ function App() {
        
       </div>
 
-      <div className="space"></div> 
       
       <footer className="footer">
         <p className="footer"> Footer</p>
