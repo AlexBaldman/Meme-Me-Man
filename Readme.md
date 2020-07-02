@@ -1,7 +1,7 @@
 # Meme-Me-Man 
 
 ## Project Planning
-An overview of planned steps for my first project while learning and becoming more comfortable with ReactJS.
+An overview of planned steps for my first project while learning and becoming more comfortable with ReactJS. 
 
 <br>
 
@@ -55,23 +55,25 @@ Sample Query Results:
 ```json
 [
     {
-        "text": "One does not simply",
-        "x": 10,
-        "y": 10,
-        "width": 548,
-        "height": 100,
-        "color": "#ffffff",
-        "outline_color": "#000000"
-    },
-    {
-        "text": "Make custom memes on the web via imgflip API",
-        "x": 10,
-        "y": 225,
-        "width": 548,
-        "height": 100,
-        "color": "#ffffff",
-        "outline_color": "#000000"
-    }
+    "success": true,
+    "data": {
+        "memes": [
+            {
+                "id": "181913649",
+                "name": "Drake Hotline Bling",
+                "url": "https://i.imgflip.com/30b1gx.jpg",
+                "width": 1200,
+                "height": 1200,
+                "box_count": 2
+            },
+            {
+                "id": "112126428",
+                "name": "Distracted Boyfriend",
+                "url": "https://i.imgflip.com/1ur9b0.jpg",
+                "width": 1200,
+                "height": 800,
+                "box_count": 3
+            },
 ]
 
 

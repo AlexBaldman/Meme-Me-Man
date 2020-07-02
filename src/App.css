@@ -1,22 +1,16 @@
-.App {
+.App{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  max-height: 450px;
+  justify-content: center;
+  background-color: rgb(255, 118, 118);
   display: flex;
+  flex-flow: column;
+  justify-content: stretch;
+}
+
+.header {
+  background-color: #282c34;
+  min-height: 60px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -24,15 +18,85 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  background-color: #282c34;
+  min-height: 60px;
+  display: flex;
+  position: bottom;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.eyes {
+  align-content: space-around;
+  display: flex;
+  flex-flow: row;
+  padding: 100px;
+  justify-content: space-evenly;
+  /* min-height: 50; */
+  justify-items: center;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.space {
+  background-color: palevioletred;
+  height: 20px;
+  width: 100%;
 }
+
+.eye {
+  background-color: darkcyan;
+  display: flex;
+  shape-rendering: crispEdges;
+  height: 90px;
+  width: 100px;
+  justify-content: center;
+  justify-self: space-around;
+  shape-outside: padding-box;
+  shape-rendering: auto;
+  border-radius: 36px;
+  border-width: 10px;
+  border-color: pink;
+  border-style: double;
+  /* text-align: center; */
+  padding: 40px;
+  ;
+}
+
+.meme {
+  align-content: center;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  color: pink;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  color: grey;
+  align-self: center;
+  flex-wrap: column;
+  text-align: center;
+  border-radius: 45px;
+  height: 87px;
+  width: 98px;
+  background-color: yellow;
+}
+
+.mouth {
+  height: 200px;
+  width: 180px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: royalblue;
+  display: flex;
+}
+
