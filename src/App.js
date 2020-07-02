@@ -27,19 +27,18 @@ function App() {
 
       <div className="eyes">
         <div className="eye">
-          <div className="pupil"><h1>O</h1></div>
+          <div className="pupil"><h1>.</h1></div>
         </div>
         <p>  </p>
         <div className="eye">
-          <div className="pupil"><h1>O</h1></div>
-      </div>
+          <div className="pupil"><h1>.</h1></div>
+        </div>
       </div>
 
       <div className="nose">
         <button className="button"> Button </button>
       </div>
 
-      <div className="space"></div>
 
 
       <div className="mouth-container">
