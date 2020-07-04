@@ -1,16 +1,23 @@
 .App{
   text-align: center;
-  max-height: 450px;
+  max-height: 100vh;
   justify-content: center;
-  background-color: rgb(139, 157, 159);
+  background-color: rgb(195, 249, 223);
   display: flex;
   flex-flow: column;
   justify-content: stretch;
 }
 
+h1 {
+  color:  orangered;
+}
+
 .header {
-  background-color: #9a61ac;
+  background-color: #c2eae3;
+  text-decoration-color: rgb(255, 114, 53);
+  text-emphasis-style: bold;
   min-height: auto;
+  max-height: 20vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -19,16 +26,18 @@
 }
 
 .footer {
-  background-color: #b42222;
-  min-height: 60px;
+  background-color: rgb(195, 249, 223);
+  max-height: 5vh;
+  margin-top: 10vh;
   display: flex;
   position: bottom;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(238, 71, 210);
 }
+
 .eyes {
   align-content: space-around;
   display: flex;
@@ -38,15 +47,16 @@
   justify-items: center;
   text-align: center;
   min-height: auto;
-  bacground-color: black;
+  background-color: rgb(195, 249, 223);
 }
 
 .nose {
   margin: 20px;
+  background-color: rgb(195, 249, 223);
 }
 
 .eye {
-  background-color: rgb(179, 96, 204);
+  background-color: rgb(254, 253, 254);
   display: flex;
   shape-rendering: crispEdges;
   height: 90px;
@@ -64,15 +74,15 @@
 }
 
 .pupil {
-  background-color: rgb(17, 8, 77);
+  background-color: rgb(65, 65, 184);
+  color: rgb(216, 39, 39);
+  border-radius: 33px;
 }
 
 .mouth-container {
   margin-bottom: 20px;
-  background-color: rgb(137, 125, 125);
-
+  background-color: rgb(195, 249, 223);
 }
-
 
 .mouth {
   height: auto;
@@ -85,8 +95,9 @@
   padding: 20px;
   margin-bottom: 10;
   border-style: double;
-  background-color: rgb(21, 25, 154);
-  border-color: orangered;
+  border-radius: 15px;
+  background-color: black;
+  border-color: pink;
   border-width: 1vh;
   border-radius: 4px 4;
 }
@@ -98,6 +109,7 @@
   width: auto;
   background-color: black;
   color: pink;
+  padding: 10px;
   margin: 15px;
   text-align: center;
 }
@@ -105,12 +117,12 @@
 img {
   width: auto;
   height: auto;
-  max-height: 200px;
+  max-height: 30vh;
   max-width: 200px;
 }
 
 .button {
-  color: grey;
+  color: white;
   align-self: center;
   flex-wrap: column;
   text-align: center;
@@ -119,5 +131,3 @@ img {
   width: 10vh;
   background-color: rgb(155, 29, 88);
 }
-
-
