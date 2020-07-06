@@ -1,5 +1,6 @@
-// // api call inside componentDidMount() hook
+// API CALL INSIDE OF componentDidMount() LIFECYCLE COMPONENT:
 
+// -----------------------------------------------------------------
 
 // componentDidMount= () => {
 //   axios.get("https://api.imgflip.com/get_memes").then(res => {

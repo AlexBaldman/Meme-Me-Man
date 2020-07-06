@@ -17,7 +17,7 @@ h1 {
   text-decoration-color: rgb(255, 114, 53);
   text-emphasis-style: bold;
   min-height: auto;
-  max-height: 20vh;
+  max-height: 10vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -28,9 +28,8 @@ h1 {
 .footer {
   background-color: rgb(195, 249, 223);
   max-height: 5vh;
-  margin-top: 10vh;
   display: flex;
-  position: bottom;
+  margin-top: 1vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -42,7 +41,7 @@ h1 {
   align-content: space-around;
   display: flex;
   flex-flow: row;
-  padding: 50px;
+  padding: 2vh;
   justify-content: space-evenly;
   justify-items: center;
   text-align: center;
@@ -51,7 +50,7 @@ h1 {
 }
 
 .nose {
-  margin: 20px;
+  margin: 5vh;
   background-color: rgb(195, 249, 223);
 }
 
@@ -59,9 +58,9 @@ h1 {
   background-color: rgb(254, 253, 254);
   display: flex;
   shape-rendering: crispEdges;
-  height: 90px;
-  width: 100px;
-  margin: 20 auto;
+  height: 10vh;
+  width: 10vw;
+  margin: auto auto;
   justify-content: center;
   justify-self: space-around;
   shape-outside: padding-box;
@@ -80,7 +79,7 @@ h1 {
 }
 
 .mouth-container {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   background-color: rgb(195, 249, 223);
 }
 
@@ -88,14 +87,14 @@ h1 {
   height: auto;
   width: 50%;
   margin: 0 auto;
-  padding: 30px;
+  padding: 10px;
   align-content: center;
   justify-content: center;
   display: flex;
-  padding: 20px;
+  padding: 1vh;
   margin-bottom: 10;
   border-style: double;
-  border-radius: 15px;
+  border-radius: 18px;
   background-color: black;
   border-color: pink;
   border-width: 1vh;
@@ -112,12 +111,13 @@ h1 {
   padding: 10px;
   margin: 15px;
   text-align: center;
+  align-self: stretch;
 }
 
 img {
   width: auto;
   height: auto;
-  max-height: 30vh;
+  max-height: 50vh;
   max-width: 200px;
 }
 

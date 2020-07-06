@@ -1,5 +1,5 @@
 import React from 'react'
-// import GrabMeme from './GrabMeme'
+
 
 export default function Mouth(props) {
     let meme = props.meme
