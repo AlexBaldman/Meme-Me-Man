@@ -7,7 +7,7 @@ export default function Contact() {
 
         <h2>
             <a href="mailto: alexlbeckerman@gmail.com">
-            Click here to e-mail the creator 
+                e-mail
             </a>
         </h2>
         

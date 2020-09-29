@@ -5,14 +5,14 @@ const GrabMeme = () => {
 
     const [meme, setMeme] = useState([])
 
-    useEffect(() => {
-        const randomMeme = async () => {
-            const { data: data } = await 
-            axios.get(`https://api.imgflip.com/get_memes`);
-            const randomIndex = Math.floor(Math.random() * data.data.memes.length)
-            setMeme(data.data.memes[randomIndex])
-        }
+    const randomMeme = async () => {
+        const { data: data } = await axios.get(`https://api.imgflip.com/get_memes`)
+        const randomIndex = Math.floor(Math.random() * data.data.memes.length)
+        setMeme(data.data.memes[randomIndex])
+    }
 
+    useEffect(() => {
+        
         randomMeme()
     }, [])
 
@@ -20,13 +20,15 @@ const GrabMeme = () => {
   
 }
 
-
 export default GrabMeme
 
+//=======-----------
+//  TO DO: 
+    // - Move randomMeme function outside useEffect for global scope?
 
-// API CALL INSIDE OF componentDidMount() LIFECYCLE COMPONENT:
-
-// -----------------------------------------------------------------
+//  REFERENCE: 
+    // - API CALL INSIDE OF componentDidMount() LIFECYCLE COMPONENT:
+// ==============------------------
 
 // componentDidMount= () => {
 //   axios.get("https://api.imgflip.com/get_memes").then(res => {
