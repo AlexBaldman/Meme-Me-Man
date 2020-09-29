@@ -4,19 +4,17 @@ import axios from 'axios'
 const GrabMeme = () => {
 
     const [meme, setMeme] = useState([])
-
-    const randomMeme = async () => {
+    
+    const randomMeme = async() => {
         const { data: data } = await axios.get(`https://api.imgflip.com/get_memes`)
+        
         const randomIndex = Math.floor(Math.random() * data.data.memes.length)
         setMeme(data.data.memes[randomIndex])
     }
 
-    useEffect(() => {
-        
-        randomMeme()
-    }, [])
+    useEffect(() => { randomMeme() }, [])
 
-  return meme
+    return meme
   
 }
 
