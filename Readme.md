@@ -1,7 +1,7 @@
 # Meme-Me-Man_
 
 ## Project Planning
-An overview of planned steps for my first project while learning and becoming more comfortable with ReactJS._
+_Ongoing list of new ideas & planned steps for my first project, while learning and becoming more comfortable with ReactJS._
 
 <br>
 
@@ -48,7 +48,7 @@ _**Meme-Me-Man**, in his most basic form, is a fairly simple but creatively conc
 |    API     | Quality Docs? | Documentation | Sample Query                            |
 | :--------: | :-----------: | :------------ | :-------------------------------------- |
 | imgFlip |      yes      | _api.imgflip.com_ | _https://api.imgflip.com/get_memes_ |
-| Possible additions|      TBD      | TBD | TBD |
+| Possible API additions  |  TBD | TBD | TBD |
 
 Sample Query Results:
 
@@ -109,11 +109,12 @@ src
       |__ Meme.jsx
       |__ Footer.jsx
       |__ Index.jsx
+
 ```
 
 <br>
 
-#### MVP Breakdown
+#### MVP Component Breakdown
 
 |  Component   |    Type    | state | props | hooks | Description                                |
 | :----------: | :--------: | :---: | :---: | :---: | :----------------------------------------- |
@@ -129,7 +130,7 @@ src
 
 <br>
 
-#### MVP Timeframes
+#### MVP Timeframe Tracking
 
 > Estimations of time-frames spent on building the project, its individual components, and various functionalities:
 
@@ -146,11 +147,11 @@ src
 
 <br>
 
-### Post-MVP
+### Post-MVP Possibilities
 
 - _Lots of Post-MVP ideas for potentially different versions via different stylings, adding of further face elements with more interaction and functionality, alternate characters, etc..._
 - _Could take user input to use different APIs to display other stuff in the mouth - cartoons, gifs, etc.._
-- _Could use project as a dojo of sorts down the road to practice different things.  For example, various ways of styling, manipulating locations of different parts of the face with CSS, add animations, etc..  Could also plug different API's with differing functionality into the app to work with displaying different types things returned by the API - i.e. videos, gifs, weather forecasts, what have you.._
+- _Could use project as a dojo of sorts down the road to practice different things.  For example, various ways of styling, manipulating locations of different parts of the face with CSS, add animations, etc..  Could also plug different APIs with differing functionality into the app to work with displaying different types things returned by the API - i.e. videos, gifs, weather forecasts, what have you.._
 - _Could use router via nav bar to add various faces that it could change to._
 - _Could make a female-styled version, Meme-Me-Ma'am... etc._
 
@@ -158,14 +159,10 @@ src
 
 ***
 
-## Project Delivery
-
-> This section will be updated as I progress through the development process, serving as a chronicle of sorts as I track my work.
-
 ### Code Showcase
 
 > This section will include brief code snippets responsible for various elements and functionality from the project that I'm proud of, along with brief descriptions.
 
-### Code Issues & Resolutions
+### Issues & Resolutions
 
 > Any major issues or roadblocks encountered during the project will be listed here, along with details of how they were resolved, for educational purposes and personal future reference.
