@@ -1,13 +1,8 @@
-# Meme-Me-Man_
+# Meme-Me-Man
 
-## Project Planning
-_Ongoing list of new ideas & planned steps for my first project, while learning and becoming more comfortable with ReactJS._
+## Description
 
-<br>
-
-### Description
-
-**Meme-Me-Man** is a single-page app portraying a robotic face that spits out memes (and/or gifs depending on further API integration) and displays them on the page based on user interactions, i.e. the user pushing his nose button to generate a random meme (and/or gif), which will be displayed in his mouth as he spits them out. If search bar left empty, returns random.  If not, narrows field.
+**Meme-Me-Man** is a single-page app portraying a robotic face that spits out memes (and/or gifs depending on further API integration) and displays them on the page based on user interactions, i.e. the user pushing his nose button to generate a random meme (and/or gif), which will be displayed in his mouth as he spits them out. This is a project to increase familiarity with ReactJS framework.
 
 <br>
 
